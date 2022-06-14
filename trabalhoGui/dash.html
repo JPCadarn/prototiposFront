@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>COLOCAR TITULO AQUI</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link type="text/css" rel="stylesheet" href="assets/index.css" />
+	<link rel="icon" href="assets/logo.png" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<!-- 
+		sistema bibliotecário. Sign in, sign out, cadastro livro, locação do livro, consulta do livro, essas coisas
+		navbar
+		grafico siuação dos livros alugados
+		table com livros próximos de vencer
+		livros em destaque
+	-->
+	<header></header>
+	<main>
+		<div class="row">
+			<div class="col s12 m6">
+				<ul class="collapsible popout">
+				  <li class="active">
+					<div class="collapsible-header">Situação dos livros</div>
+					<div class="collapsible-body"><canvas id="chartSituacaoLivros" width="870" height="234"></canvas></div>
+				  </li>
+				</ul>
+			</div>
+			<div class="col s12 m6">
+				<ul class="collapsible popout">
+					<li class="active">
+						<div class="collapsible-header"><i class="material-icons">event</i>Livros mais alugados</div>
+						<div class="collapsible-body">
+							<table class="striped centered">
+								<thead>
+								  <tr>
+									  <th>ID</th>
+									  <th>Título</th>
+									  <th>Autor</th>
+									  <th>Quantidade</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+									<td>1</td>
+									<td>A Revolta de Atlas</td>
+									<td>Ayn Rand</td>
+									<td>12341234</td>
+								  </tr>
+								  <tr>
+									<td>2</td>
+									<td>Livro Teste</td>
+									<td>JPCadarn</td>
+									<td>42</td>
+								  </tr>
+								  <tr>
+									<td>3</td>
+									<td>The Book is on the table</td>
+									<td>Autor Test</td>
+									<td>10</td>
+								  </tr>
+								</tbody>
+							  </table>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo">Logo</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="sass.html">Livros</a></li>
+					<li><a href="badges.html">Categorias</a></li>
+					<li><a href="collapsible.html">Usuários</a></li>
+					<li><a href="collapsible.html">Sair</a></li>
+				</ul>
+			</div>
+		</nav>
+	</footer>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js" integrity="sha512-sW/w8s4RWTdFFSduOTGtk4isV1+190E/GghVffMA9XczdJ2MDzSzLEubKAs5h0wzgSJOQTRYyaz73L3d6RtJSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script type="text/javascript" src="assets/index.js"></script>
+	<script type="text/javascript" src="assets/charts.js"></script>
+</body>
+
+</html>

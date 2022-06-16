@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>COLOCAR TITULO AQUI</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link type="text/css" rel="stylesheet" href="assets/index.css" />
+		<link rel="icon" href="assets/logo.png" type="image/x-icon">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<header></header>
+		<main>
+			<div class="row">
+				<div class="col s12 m4">
+					<div class="card horizontal small hoverable">
+						<div class="card-image">
+							<img src="assets/capa.jpg">
+						</div>
+						<div class="card-stacked">
+							<div class="card-title">
+								<h5>A Revolta de Atlas</h5>
+							</div>
+							<div class="card-content">
+								<p><b>Data de Nascimento: </b> 24/08/1999</p>
+								<p><b>Email: </b> pedrinho_priston@yahoo.com.br</p>
+							</div>
+							<div class="card-action">
+								<span>X livros alugados</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m4">
+					<div class="card horizontal small hoverable">
+						<div class="card-image">
+							<img src="assets/capa.jpg">
+						</div>
+						<div class="card-stacked">
+							<div class="card-title">
+								<h5>A Revolta de Atlas</h5>
+							</div>
+							<div class="card-content">
+								<p><b>Data de Nascimento: </b> 24/08/1999</p>
+								<p><b>Email: </b> pedrinho_priston@yahoo.com.br</p>
+							</div>
+							<div class="card-action">
+								<span>X livros alugados</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m4">
+					<div class="card horizontal small hoverable">
+						<div class="card-image">
+							<img src="assets/capa.jpg">
+						</div>
+						<div class="card-stacked">
+							<div class="card-title">
+								<h5>A Revolta de Atlas</h5>
+							</div>
+							<div class="card-content">
+								<p><b>Data de Nascimento: </b> 24/08/1999</p>
+								<p><b>Email: </b> pedrinho_priston@yahoo.com.br</p>
+							</div>
+							<div class="card-action">
+								<span>X livros alugados</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m4">
+					<div class="card horizontal small hoverable">
+						<div class="card-image">
+							<img src="assets/capa.jpg">
+						</div>
+						<div class="card-stacked">
+							<div class="card-title">
+								<h5>A Revolta de Atlas</h5>
+							</div>
+							<div class="card-content">
+								<p><b>Data de Nascimento: </b> 24/08/1999</p>
+								<p><b>Email: </b> pedrinho_priston@yahoo.com.br</p>
+							</div>
+							<div class="card-action">
+								<span>X livros alugados</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m4">
+					<div class="card horizontal small hoverable">
+						<div class="card-image">
+							<img src="assets/capa.jpg">
+						</div>
+						<div class="card-stacked">
+							<div class="card-title">
+								<h5>A Revolta de Atlas</h5>
+							</div>
+							<div class="card-content">
+								<p><b>Data de Nascimento: </b> 24/08/1999</p>
+								<p><b>Email: </b> pedrinho_priston@yahoo.com.br</p>
+							</div>
+							<div class="card-action">
+								<span>X livros alugados</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m4">
+					<div class="card horizontal small hoverable">
+						<div class="card-image">
+							<img src="assets/capa.jpg">
+						</div>
+						<div class="card-stacked">
+							<div class="card-title">
+								<h5>A Revolta de Atlas</h5>
+							</div>
+							<div class="card-content">
+								<p><b>Data de Nascimento: </b> 24/08/1999</p>
+								<p><b>Email: </b> pedrinho_priston@yahoo.com.br</p>
+							</div>
+							<div class="card-action">
+								<span>X livros alugados</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button data-target="modalCadastro" class="btn-floating btn-large modal-trigger fixed-action-btn"><i class="material-icons">add</i></button>
+			</div>
+
+			<div id="modalCadastro" class="modal bottom-sheet">
+				<form action="/novoUsuario" method="POST"  class='col s12' enctype='multipart/form-data' autocomplete='off'>
+					<div class="modal-header center-align">
+						<h4>Cadastrar novo usuário</h4>
+					</div>
+					<div class="modal-content">
+						<div class="input-field col s6">
+							<input id="nome" name="nome" type="text" required>
+							<label for="nome">Nome</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="senha" name="senha" type="password" required>
+							<label for="senha">Senha</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="data_nascimento" name="data_nascimento" type="date" required>
+							<label for="data_nascimento">Data de Nascimento</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="email" name="email" type="email" class="validate" required>
+							<label for="email">Email</label>
+						</div>
+						<div class="file-field input-field">
+							<div class="btn">
+								<span>Foto</span>
+								<input type="file">
+							</div>
+							<div class="file-path-wrapper">
+								<input name="capa" id="capa" class="file-path validate" type="text">
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn-floating waves-effect waves-light btn-large" type="submit" name="action"><i class="material-icons right">send</i></button>
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer>
+			<nav>
+				<div class="nav-wrapper">
+					<a href="#" class="brand-logo">Logo</a>
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li><a href="livros.html">Livros</a></li>
+						<li><a href="categorias.html">Categorias</a></li>
+						<li><a href="usuarios.html">Usuários</a></li>
+						<li><a href="minhaconta.html">Minha Conta</a></li>
+						<li><a href="/logout" id="btnLogout">Sair</a></li>
+					</ul>
+				</div>
+			</nav>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js" integrity="sha512-sW/w8s4RWTdFFSduOTGtk4isV1+190E/GghVffMA9XczdJ2MDzSzLEubKAs5h0wzgSJOQTRYyaz73L3d6RtJSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script type="text/javascript" src="assets/index.js"></script>
+		<script type="text/javascript" src="assets/charts.js"></script>
+	</body>
+</html>
